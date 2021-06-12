@@ -19,6 +19,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/exportperpus', 'PerpusController@perpusexport')->name('exportperpus');
+route::get('/perpusexport', [PerpusController::class, 'perpusexport']);
 Route::resource('perpus', PerpusController::class);
 

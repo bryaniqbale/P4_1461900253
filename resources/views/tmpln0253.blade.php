@@ -29,7 +29,7 @@
 
         
     <div class="card card-info card-outline">
-        <div class="card-header"><a href="{{ route('exportperpus') }}" class="btn btn-success">EXPORT EXCEL</a></div>
+        <div class="card-header"><a href="{{ url('/perpusexport') }}" class="btn btn-success">EXPORT EXCEL</a></div>
         <div class="card-body">
 
 

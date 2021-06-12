@@ -27,7 +27,7 @@ class PerpusController extends Controller
 
     public function perpusexport()
     {
-        return Excel::download(new Data_1461900253, 'perpus.xlsx');
+        return Excel::download(new Data_1461900253, 'Data_1461900253.xlsx');
     }
 
 
